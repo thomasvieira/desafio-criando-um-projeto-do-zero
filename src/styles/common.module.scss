@@ -1,1 +1,8 @@
-// TODO
+.contentContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 700px;
+  height: 100%;
+  padding-bottom: 50px;
+}

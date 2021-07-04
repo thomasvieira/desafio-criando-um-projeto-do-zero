@@ -4,4 +4,52 @@
   padding: 0;
 }
 
-// TODO
+:root {
+  --white: #FFFFFF;
+  --black: #000000;
+
+  --pink-logo: #FF57B2;
+  --soft-pink: #FF8CC9;
+
+  --yellow: #FFF77C;
+  --soft-yellow: #FFF5B0;
+
+  --gray-background: #282C34;
+  --gray-info: #BBBBBB;
+
+  --title: #F8F8F8;
+  --body: #F8F8F8;
+  --text: #F8F8F8;
+
+  --divider: #D7D7D7;
+}
+
+@media (max-width: 1080px) {
+  html {
+    font-size: 93.75%;
+  }
+}
+
+@media (max-width: 720px) {
+  html {
+    font-size: 87.5%;
+  }
+}
+
+body {
+  background: var(--gray-background);
+  color: var(--body);
+}
+
+body, input, textarea, select, button {
+  font: 400 1rem "Inter", sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
